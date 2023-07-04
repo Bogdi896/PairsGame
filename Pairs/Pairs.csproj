@@ -1,0 +1,88 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\157.png" />
+    <None Remove="Images\197.png" />
+    <None Remove="Images\214.png" />
+    <None Remove="Images\24.png" />
+    <None Remove="Images\245.png" />
+    <None Remove="Images\25.png" />
+    <None Remove="Images\260.png" />
+    <None Remove="Images\275.png" />
+    <None Remove="Images\282.png" />
+    <None Remove="Images\3.png" />
+    <None Remove="Images\306.png" />
+    <None Remove="Images\359.png" />
+    <None Remove="Images\373.png" />
+    <None Remove="Images\382.png" />
+    <None Remove="Images\384.png" />
+    <None Remove="Images\389.png" />
+    <None Remove="Images\395.png" />
+    <None Remove="Images\405.png" />
+    <None Remove="Images\426.png" />
+    <None Remove="Images\430.png" />
+    <None Remove="Images\445.png" />
+    <None Remove="Images\448.png" />
+    <None Remove="Images\454.png" />
+    <None Remove="Images\466.png" />
+    <None Remove="Images\470.png" />
+    <None Remove="Images\483.png" />
+    <None Remove="Images\487.png" />
+    <None Remove="Images\500.png" />
+    <None Remove="Images\545.png" />
+    <None Remove="Images\59.png" />
+    <None Remove="Images\6.png" />
+    <None Remove="Images\612.png" />
+    <None Remove="Images\643.png" />
+    <None Remove="Images\9.png" />
+    <None Remove="Images\94.png" />
+    <None Remove="Images\pngwing.com%282%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\157.png" />
+    <Resource Include="Images\197.png" />
+    <Resource Include="Images\214.png" />
+    <Resource Include="Images\24.png" />
+    <Resource Include="Images\245.png" />
+    <Resource Include="Images\25.png" />
+    <Resource Include="Images\260.png" />
+    <Resource Include="Images\275.png" />
+    <Resource Include="Images\282.png" />
+    <Resource Include="Images\3.png" />
+    <Resource Include="Images\306.png" />
+    <Resource Include="Images\359.png" />
+    <Resource Include="Images\373.png" />
+    <Resource Include="Images\382.png" />
+    <Resource Include="Images\384.png" />
+    <Resource Include="Images\389.png" />
+    <Resource Include="Images\395.png" />
+    <Resource Include="Images\405.png" />
+    <Resource Include="Images\426.png" />
+    <Resource Include="Images\430.png" />
+    <Resource Include="Images\445.png" />
+    <Resource Include="Images\448.png" />
+    <Resource Include="Images\454.png" />
+    <Resource Include="Images\466.png" />
+    <Resource Include="Images\470.png" />
+    <Resource Include="Images\483.png" />
+    <Resource Include="Images\487.png" />
+    <Resource Include="Images\500.png" />
+    <Resource Include="Images\545.png" />
+    <Resource Include="Images\59.png" />
+    <Resource Include="Images\6.png" />
+    <Resource Include="Images\612.png" />
+    <Resource Include="Images\643.png" />
+    <Resource Include="Images\9.png" />
+    <Resource Include="Images\94.png" />
+    <Resource Include="Images\pngwing.com(2).png" />
+  </ItemGroup>
+
+</Project>

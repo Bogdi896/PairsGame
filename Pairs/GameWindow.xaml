@@ -1,0 +1,26 @@
+﻿<Window x:Class="Pairs.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pairs"
+        mc:Ignorable="d"
+        Title="Game" Height="420" Width="560">
+    <Grid>
+        <Grid HorizontalAlignment="Center" Height="402" Margin="0,22,0,0" VerticalAlignment="Top" Width="712"/>
+        <TextBlock Name="CustomGameTimer" HorizontalAlignment="Left" Margin="371,34,0,0" TextWrapping="Wrap" Text="" FontWeight="Bold" VerticalAlignment="Top" Height="24" Width="185"/>
+        <TextBlock Name="CustomGameBlockLevel" HorizontalAlignment="Left" Margin="444,82,0,0" TextWrapping="Wrap" FontWeight="Bold" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="70">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Grid  Name="CustomGameGrid">
+
+        </Grid>
+    </Grid>
+</Window>
